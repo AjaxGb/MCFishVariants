@@ -1,0 +1,54 @@
+body {
+	margin: 20px;
+}
+.inputs {
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: auto auto auto auto;
+	grid-template-columns: auto auto auto auto;
+	-ms-grid-rows: auto auto;
+	grid-template-rows: auto auto;
+	align-items: center;
+	width: -ms-max-content;
+	width: max-content;
+}
+.inputs label {
+	text-align: right;
+	padding: 10px 15px;
+}
+.output {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 10px 15px;
+}
+.invalid {
+	background-color: #FBB;
+}
+/* For IE */
+.inputs > * {
+	display: block;
+}
+.inputs > :nth-child(2) {
+	-ms-grid-column: 2;
+}
+.inputs > :nth-child(3) {
+	-ms-grid-column: 3;
+}
+.inputs > :nth-child(4) {
+	-ms-grid-column: 4;
+}
+.inputs > :nth-child(5) {
+	-ms-grid-row: 2;
+}
+.inputs > :nth-child(6) {
+	-ms-grid-row: 2;
+	-ms-grid-column: 2;
+}
+.inputs > :nth-child(7) {
+	-ms-grid-row: 2;
+	-ms-grid-column: 3;
+}
+.inputs > :nth-child(8) {
+	-ms-grid-row: 2;
+	-ms-grid-column: 4;
+}

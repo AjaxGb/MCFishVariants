@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minecraft Tropical Fish Variant Generator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="draw-fish.js"></script>
+</head>
+<body>
+<h1>AjaxGb's Tropical Fish Variant Generator</h1>
+<div class="inputs">
+	<label for="shape">Shape:</label>
+	<select id="shape">
+		<option value="0">Small</option>
+		<option value="1">Big</option>
+	</select>
+	
+	<label for="baseColor">Base Color:</label>
+	<select id="baseColor">
+		<option value="0">White</option>
+		<option value="1">Orange</option>
+		<option value="2">Magenta</option>
+		<option value="3">Light Blue</option>
+		<option value="4">Yellow</option>
+		<option value="5">Lime</option>
+		<option value="6">Pink</option>
+		<option value="7">Gray</option>
+		<option value="8">Light Gray</option>
+		<option value="9">Cyan</option>
+		<option value="10">Purple</option>
+		<option value="11">Blue</option>
+		<option value="12">Brown</option>
+		<option value="13">Green</option>
+		<option value="14">Red</option>
+		<option value="15">Black</option>
+	</select>
+	
+	<label for="pattern">Pattern:</label>
+	<select id="pattern">
+		<option value="0">Pattern 1</option>
+		<option value="1">Pattern 2</option>
+		<option value="2">Pattern 3</option>
+		<option value="3">Pattern 4</option>
+		<option value="4">Pattern 5</option>
+		<option value="5">Pattern 6</option>
+	</select>
+	
+	<label for="patternColor">Pattern Color:</label>
+	<select id="patternColor" class="colorSelect">
+		<option value="0">White</option>
+		<option value="1">Orange</option>
+		<option value="2">Magenta</option>
+		<option value="3">Light Blue</option>
+		<option value="4">Yellow</option>
+		<option value="5">Lime</option>
+		<option value="6">Pink</option>
+		<option value="7">Gray</option>
+		<option value="8">Light Gray</option>
+		<option value="9">Cyan</option>
+		<option value="10">Purple</option>
+		<option value="11">Blue</option>
+		<option value="12">Brown</option>
+		<option value="13">Green</option>
+		<option value="14">Red</option>
+		<option value="15">Black</option>
+	</select>
+</div>
+<div class="output">
+	<label for="variant">Variant:</label>
+	<input type="number" id="variant" value="0" min="0">
+</div>
+<script src="index.js"></script>
+</body>
+</html>
